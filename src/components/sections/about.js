@@ -125,7 +125,15 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'TypeScript',
+    'React.js',
+    'Node.js',
+    'Python',
+    'Kotlin',
+    'AWS',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +143,29 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hi! My name is Devyansh and I'm a senior IT undergraduate at National Institute of
+              Technology, Kurukshetra. As a passionate developer, I love to work with numerous
+              technologies by getting involved in diverse communities.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              I am, currently, a Software Engineering Fellow at{' '}
+              <a href="https://www.metaplex.com/">Metaplex</a>, a strategic partner of{' '}
+              <a href="https://solana.com/">Solana Labs</a>. I was also a Database Engineering
+              intern at <a href="https://www.cvent.com/">Cvent</a>, software developer at{' '}
+              <a href="https://summerofcode.withgoogle.com/archive/2021/projects/6231670797107200">
+                Google Summer of Code
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              and the Open Souce Lead of{' '}
+              <a href="https://gdsc.community.dev/national-institute-of-technology-nit-kurukshetra/">
+                Google Developer Student Club
+              </a>
+              .
+            </p>
+
+            <p>
+              My other interests include reading and occasional writing. You may find me reading
+              Harry Potter fandom quite frequently :P
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -173,7 +180,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me.jpeg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
