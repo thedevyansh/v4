@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Link, useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { srConfig } from '@config';
@@ -173,14 +173,14 @@ const Projects = () => {
           fileAbsolutePath: { regex: "/content/projects/" }
           frontmatter: { showInProjects: { ne: false } }
         }
-        sort: { fields: [frontmatter___date], order: DESC }
+        sort: { fields: [frontmatter___index], order: ASC }
       ) {
         edges {
           node {
             frontmatter {
               title
               tech
-              github
+              isBlog
               external
             }
             html
@@ -206,39 +206,21 @@ const Projects = () => {
     revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
-  const GRID_LIMIT = 6;
+  const GRID_LIMIT = 3;
   const projects = data.projects.edges.filter(({ node }) => node);
-  const firstSix = projects.slice(0, GRID_LIMIT);
-  const projectsToShow = showMore ? projects : firstSix;
+  const firstThree = projects.slice(0, GRID_LIMIT);
+  const projectsToShow = showMore ? projects : firstThree;
 
   const projectInner = node => {
     const { frontmatter, html } = node;
-    const { github, external, title, tech } = frontmatter;
+    const { isBlog, external, title, tech } = frontmatter;
 
     return (
       <div className="project-inner">
         <header>
           <div className="project-top">
-            <div className="folder">
-              <Icon name="Folder" />
-            </div>
-            <div className="project-links">
-              {github && (
-                <a href={github} aria-label="GitHub Link" target="_blank" rel="noreferrer">
-                  <Icon name="GitHub" />
-                </a>
-              )}
-              {external && (
-                <a
-                  href={external}
-                  aria-label="External Link"
-                  className="external"
-                  target="_blank"
-                  rel="noreferrer">
-                  <Icon name="External" />
-                </a>
-              )}
-            </div>
+            <div className="folder">{isBlog ? <Icon name="Folder" /> : <Icon name="GitHub" />}</div>
+            <div className="project-links">{isBlog && <h5>Blog</h5>}</div>
           </div>
 
           <h3 className="project-title">
@@ -265,11 +247,7 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
-
-      <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        view the archive
-      </Link>
+      <h2 ref={revealTitle}>Other Projects &#38; Blogs</h2>
 
       <ul className="projects-grid">
         {prefersReducedMotion ? (

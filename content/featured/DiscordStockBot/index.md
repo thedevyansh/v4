@@ -1,8 +1,8 @@
 ---
 date: '1'
-title: 'Build a Spotify Connected App'
+title: 'Discord Stock Bot'
 cover: './discordbot.png'
-cta: 'https://github.com/thedevyansh/discord-stock-bot'
+github: 'https://github.com/thedevyansh/discord-stock-bot'
 tech:
   - Python
   - Discord API
