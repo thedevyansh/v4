@@ -143,20 +143,20 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi! My name is Devyansh and I'm a senior IT undergraduate at National Institute of
-              Technology, Kurukshetra. As a passionate developer, I love to work with numerous
-              technologies by getting involved in diverse communities.
+              Hello! I'm Devyansh, a senior IT undergraduate at National Institute of Technology,
+              Kurukshetra. As a developer, I love working with numerous technologies involving
+              diverse communities.
             </p>
 
             <p>
-              I am, currently, a Software Engineering Fellow at{' '}
+              I am currently a Software Engineering Fellow at{' '}
               <a href="https://www.metaplex.com/">Metaplex</a>, a strategic partner of{' '}
               <a href="https://solana.com/">Solana Labs</a>. I was also a Database Engineering
-              intern at <a href="https://www.cvent.com/">Cvent</a>, software developer at{' '}
+              intern at <a href="https://www.cvent.com/">Cvent</a>, a software developer during{' '}
               <a href="https://summerofcode.withgoogle.com/archive/2021/projects/6231670797107200">
                 Google Summer of Code
               </a>{' '}
-              and the Open Souce Lead of{' '}
+              2021 and the Open Souce Lead of{' '}
               <a href="https://gdsc.community.dev/national-institute-of-technology-nit-kurukshetra/">
                 Google Developer Student Club
               </a>

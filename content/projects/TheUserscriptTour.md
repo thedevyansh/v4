@@ -11,4 +11,4 @@ tech:
 showInProjects: true
 ---
 
-This project is a guided adventure tour on mediawiki.org to give users insight on _How to create a userscript on Wikimedia projects?_
+This project is a guided adventure tour on mediawiki.org to give users insight on _How to create user scripts on Wikimedia projects?_

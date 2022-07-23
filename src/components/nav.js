@@ -163,13 +163,13 @@ const Nav = ({ isHome }) => {
       {isHome ? (
         <a href="/" aria-label="home">
           <span role="img" aria-label="Hi emoji">
-            👋
+            👋🏻
           </span>
         </a>
       ) : (
         <Link to="/" aria-label="home">
           <span role="img" aria-label="Hi emoji">
-            👋
+            👋🏻
           </span>
         </Link>
       )}

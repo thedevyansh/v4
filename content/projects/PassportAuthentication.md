@@ -6,4 +6,4 @@ isBlog: true
 showInProjects: true
 ---
 
-The blog explains the step-by-step process to implement a simple, unobtrusive authentication in Node.js using Passport's Local Strategy.
+The blog explains the step-by-step procedure to implement simple, unobtrusive authentication in Node.js using Passport's Local Strategy.

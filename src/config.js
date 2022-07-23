@@ -3,16 +3,16 @@ module.exports = {
 
   socialMedia: [
     {
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/devyanshchawla',
+    },
+    {
       name: 'GitHub',
       url: 'https://github.com/thedevyansh',
     },
     {
       name: 'Twitter',
       url: 'https://twitter.com/DevyanshChawla',
-    },
-    {
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/devyanshchawla',
     },
   ],
 

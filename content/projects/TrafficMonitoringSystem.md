@@ -5,9 +5,9 @@ external: 'https://github.com/Hardik-hi/Team-Novus-Productathon'
 tech:
   - Python
   - OpenCV
-  - JavaScript
+  - Node.js
   - EJS
 showInProjects: true
 ---
 
-Traffic Monitoring system is a prototype that monitors the traffic on crossroads & changes traffic lights accordingly.
+The traffic monitoring system is a prototype that monitors the traffic density at crossroads & regulates traffic lights accordingly.
