@@ -4,12 +4,26 @@ module.exports = {
   siteMetadata: {
     title: 'Devyansh Chawla',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+      'Devyansh Chawla is an undergraduate at NIT, Kurukshetra, who is passionate about building stuff with an emphasis on clean and maintainable code.',
+    siteUrl: 'https://devyanshchawla.me',
+    image: '/og.png', // No trailing slash allowed!
+    twitterUsername: '@DevyanshChawla',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          'G-X71B7NQVM1', // Google Analytics / GA
+        ],
+        // This object is used for configuration specific to this plugin
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true,
+        },
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
