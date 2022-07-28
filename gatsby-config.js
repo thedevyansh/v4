@@ -11,6 +11,58 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-plugin-feed',
+      options: {
+        query: `
+      {
+        site {
+          siteMetadata {
+            title
+            description
+            siteUrl
+            site_url: siteUrl
+          }
+        }
+      }
+    `,
+        feeds: [
+          {
+            title: 'My Projects RSS Feed',
+            output: 'rss.xml',
+            query: `
+        {
+          allMarkdownRemark(
+            sort: {fields: frontmatter___date, order: DESC}
+            filter: {frontmatter: {external: {ne: null}}}
+          ) {
+            nodes {
+              frontmatter {
+                title
+                github
+                external
+              }
+              html
+            }
+          }
+        }
+        `,
+            serialize: ({ query: { allMarkdownRemark } }) =>
+              allMarkdownRemark.nodes.map(node =>
+                Object.assign(
+                  {},
+                  {
+                    title: node.frontmatter.title,
+                    description: node.html,
+                    url: node.frontmatter.github,
+                    guid: node.frontmatter.external,
+                  },
+                ),
+              ),
+          },
+        ],
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
@@ -56,13 +108,6 @@ module.exports = {
       options: {
         name: 'content',
         path: `${__dirname}/content/`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `posts`,
-        path: `${__dirname}/content/posts`,
       },
     },
     {

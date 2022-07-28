@@ -3,6 +3,7 @@ date: '1'
 title: 'Discord Stock Bot'
 cover: './discordbot.png'
 github: 'https://github.com/thedevyansh/discord-stock-bot'
+external: 'https://github.com/thedevyansh/discord-stock-bot'
 tech:
   - Python
   - Discord API

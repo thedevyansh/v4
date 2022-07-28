@@ -1,5 +1,5 @@
 ---
-index: '2'
+date: '2'
 title: 'Smart Traffic Management'
 external: 'https://github.com/Hardik-hi/Team-Novus-Productathon'
 tech:

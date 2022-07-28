@@ -352,6 +352,8 @@ const Featured = () => {
             const { external, title, tech, github, cover } = frontmatter;
             const image = getImage(cover);
 
+            const isSameLink = github === external;
+
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <div className="project-content">
@@ -381,7 +383,7 @@ const Featured = () => {
                           <Icon name="GitHub" />
                         </a>
                       )}
-                      {external && (
+                      {external && !isSameLink && (
                         <a href={external} aria-label="External Link" className="external">
                           <Icon name="External" />
                         </a>
