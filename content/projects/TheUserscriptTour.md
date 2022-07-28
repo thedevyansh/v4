@@ -1,5 +1,5 @@
 ---
-index: '1'
+date: '1'
 title: 'The Userscript Tour'
 external: 'https://github.com/thedevyansh/the-userscript-tour'
 tech:
