@@ -65,7 +65,7 @@ const Hero = () => {
     <>
       <p>
         I'm an undergraduate at NIT, Kurukshetra, who is passionate about building stuff with an
-        emphasis on clean and maintainable code. Currently, I'm a Software Engineering Fellow at{' '}
+        emphasis on clean and maintainable code. Recently, I was a Software Engineering Intern at{' '}
         <a href="https://solana.com/" target="_blank" rel="noreferrer">
           Solana Labs
         </a>

@@ -149,7 +149,7 @@ const About = () => {
             </p>
 
             <p>
-              I am currently a Software Engineering Fellow at{' '}
+              I am recently a Software Engineering Intern at{' '}
               <a href="https://www.metaplex.com/">Metaplex</a>, a strategic partner of{' '}
               <a href="https://solana.com/">Solana Labs</a>. I was also a Database Engineering
               intern at <a href="https://www.cvent.com/">Cvent</a>, a software developer during{' '}
