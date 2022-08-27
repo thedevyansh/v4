@@ -27,6 +27,11 @@ const StyledSocialList = styled.ul`
       margin-bottom: 20px;
     }
 
+    .rss-link {
+      font-family: var(--font-mono);
+      font-size: 15px;
+    }
+
     a {
       padding: 10px;
 
@@ -54,6 +59,16 @@ const Social = ({ isHome }) => (
             </a>
           </li>
         ))}
+      <li>
+        <a
+          href="/rss.xml"
+          aria-label="RSS Feed"
+          target="_blank"
+          rel="noreferrer"
+          className="rss-link">
+          [rss]
+        </a>
+      </li>
     </StyledSocialList>
   </Side>
 );
