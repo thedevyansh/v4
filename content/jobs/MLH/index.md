@@ -11,5 +11,5 @@ url: 'https://fellowship.mlh.io/'
 
 <br />
 
-- Worked with a Pod of 15 members worldwide by collaborating on two projects - Pod Portfolio, a Jekyll website designed for the Fellows, and a Weather Application using React.js.
-- Gave regular Standups and Retrospectives and volunteered for the Show & Tell session with the topic being Object Detection using OpenCV AI Kit with Depth.
+- Worked with a Pod of 15 members worldwide, collaborating on two projects - Pod Portfolio, a Jekyll website designed for the Fellows, and a Weather Application using React.js.
+- Gave regular Standups and Retrospectives and volunteered for the Show & Tell session on Object Detection using OpenCV AI Kit (OAK-D).

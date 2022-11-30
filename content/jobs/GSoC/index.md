@@ -11,6 +11,6 @@ url: 'https://summerofcode.withgoogle.com/archive/2021/projects/6231670797107200
 
 <br />
 
-- **Selected amongst the 1,286 students who joined from 69 countries** across the globe.
+- Amongst the 1,286 students who joined from 69 countries across the globe.
 - Developed a Userscript Guided Tour for the seamless onboarding of new developers on MediaWiki.
-- Created multiple templates and user scripts by leveraging ResourceLoader, MediaWiki Action API, and Object-Oriented User Interface.
+- The tour enables creating user scripts on MediaWiki-powered platforms with ResourceLoader, MediaWiki Action API, and Object-Oriented User Interface.

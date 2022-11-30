@@ -131,6 +131,7 @@ const About = () => {
     'React.js',
     'Node.js',
     'Python',
+    'Rust',
     'Kotlin',
     'AWS',
   ];
@@ -149,10 +150,10 @@ const About = () => {
             </p>
 
             <p>
-              I am recently a Software Engineering Intern at{' '}
+              I was recently a Software Engineering Intern at{' '}
               <a href="https://www.metaplex.com/">Metaplex</a>, a strategic partner of{' '}
               <a href="https://solana.com/">Solana Labs</a>. I was also a Database Engineering
-              intern at <a href="https://www.cvent.com/">Cvent</a>, a software developer during{' '}
+              Intern at <a href="https://www.cvent.com/">Cvent</a>, a Software Developer during{' '}
               <a href="https://summerofcode.withgoogle.com/archive/2021/projects/6231670797107200">
                 Google Summer of Code
               </a>{' '}
