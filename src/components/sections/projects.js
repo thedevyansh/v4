@@ -181,6 +181,7 @@ const Projects = () => {
               title
               tech
               isBlog
+              isWorkshop
               external
             }
             html
@@ -206,21 +207,49 @@ const Projects = () => {
     revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
-  const GRID_LIMIT = 3;
+  const GRID_LIMIT = 6;
   const projects = data.projects.edges.filter(({ node }) => node);
   const firstThree = projects.slice(0, GRID_LIMIT);
   const projectsToShow = showMore ? projects : firstThree;
 
   const projectInner = node => {
     const { frontmatter, html } = node;
-    const { isBlog, external, title, tech } = frontmatter;
+    const { isBlog, isWorkshop, external, title, tech } = frontmatter;
 
     return (
       <div className="project-inner">
         <header>
           <div className="project-top">
-            <div className="folder">{isBlog ? <Icon name="Folder" /> : <Icon name="GitHub" />}</div>
-            <div className="project-links">{isBlog && <h5>Blog</h5>}</div>
+            {isBlog && (
+              <div className="folder">
+                <Icon name="Bookmark" />
+              </div>
+            )}
+            {isBlog && (
+              <div className="project-links">
+                <h5>Blog</h5>
+              </div>
+            )}
+            {isWorkshop && (
+              <div className="folder">
+                <Icon name="Folder" />
+              </div>
+            )}
+            {isWorkshop && (
+              <div className="project-links">
+                <h5>Workshop</h5>
+              </div>
+            )}
+            {!isBlog && !isWorkshop && (
+              <div className="folder">
+                <Icon name="GitHub" />
+              </div>
+            )}
+            {!isBlog && !isWorkshop && (
+              <div className="project-links">
+                <h5>Project</h5>
+              </div>
+            )}
           </div>
 
           <h3 className="project-title">
@@ -247,7 +276,7 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Other Projects &#38; Blogs</h2>
+      <h2 ref={revealTitle}>Other Projects, Workshops &#38; Blogs</h2>
 
       <ul className="projects-grid">
         {prefersReducedMotion ? (

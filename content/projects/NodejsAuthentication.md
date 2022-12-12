@@ -1,5 +1,5 @@
 ---
-date: '4'
+date: '3'
 title: 'Node.js Authentication Boilerplate'
 external: 'https://github.com/thedevyansh/Node.js-and-Passport-Authentication-App'
 tech:
