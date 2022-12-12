@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '7'
 title: 'Adieu, Google Summer of Code 2021'
 external: 'https://thedevyansh.github.io/google-summer-of-code-2021/posts/final_report/'
 isBlog: true
