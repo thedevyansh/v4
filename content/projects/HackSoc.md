@@ -6,4 +6,4 @@ isWorkshop: true
 showInProjects: true
 ---
 
-This workshop covers the usage of OAK-D for computer vision applications with dedicated hardware, letting it do these tasks with very low power draw.
+This workshop covers the usage of OAK-D for computer vision applications with dedicated hardware, along with hands-on implementation of object detection.

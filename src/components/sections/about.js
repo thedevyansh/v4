@@ -151,13 +151,13 @@ const About = () => {
 
             <p>
               I was recently a Software Engineering Intern at{' '}
-              <a href="https://www.metaplex.com/">Metaplex</a>, a strategic partner of{' '}
-              <a href="https://solana.com/">Solana Labs</a>. I was also a Database Engineering
-              Intern at <a href="https://www.cvent.com/">Cvent</a>, a Software Developer during{' '}
+              <a href="https://www.metaplex.com/">Metaplex Studios Inc</a>. I was also a Database
+              Engineering Intern at <a href="https://www.cvent.com/">Cvent</a>, a Student Developer
+              during{' '}
               <a href="https://summerofcode.withgoogle.com/archive/2021/projects/6231670797107200">
                 Google Summer of Code
               </a>{' '}
-              2021 and the Open Souce Lead of{' '}
+              2021 and am the Open Souce Lead of{' '}
               <a href="https://gdsc.community.dev/national-institute-of-technology-nit-kurukshetra/">
                 Google Developer Student Club
               </a>

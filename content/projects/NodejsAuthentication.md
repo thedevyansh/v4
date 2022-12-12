@@ -11,4 +11,4 @@ tech:
 showInProjects: true
 ---
 
-An authentication layer boilerplate that others can use in applications that require implementing authentication.
+An authentication layer boilerplate that others can use in applications for implementing authentication.

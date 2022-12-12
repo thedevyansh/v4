@@ -68,7 +68,7 @@ const StyledNav = styled.nav`
       color: var(--green);
       width: 42px;
       height: 42px;
-      font-size: 32px;
+      font-size: 18px;
 
       &:hover,
       &:focus {
@@ -163,24 +163,24 @@ const Nav = ({ isHome }) => {
       {isHome ? (
         <a href="/" aria-label="home">
           <span role="img" aria-label="Hi emoji">
-            👋🏻
+            /home
           </span>
         </a>
       ) : (
         <Link to="/" aria-label="home">
           <span role="img" aria-label="Hi emoji">
-            👋🏻
+            /home
           </span>
         </Link>
       )}
     </div>
   );
 
-  const ResumeLink = (
-    <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-      Resume
-    </a>
-  );
+  // const ResumeLink = (
+  //   <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+  //     Resume
+  //   </a>
+  // );
 
   return (
     <StyledHeader scrollDirection={scrollDirection} scrolledToTop={scrolledToTop}>
@@ -198,7 +198,7 @@ const Nav = ({ isHome }) => {
                     </li>
                   ))}
               </ol>
-              <div>{ResumeLink}</div>
+              {/* <div>{ResumeLink}</div> */}
             </StyledLinks>
 
             <Menu />
@@ -228,7 +228,7 @@ const Nav = ({ isHome }) => {
                 </TransitionGroup>
               </ol>
 
-              <TransitionGroup component={null}>
+              {/* <TransitionGroup component={null}>
                 {isMounted && (
                   <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                     <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
@@ -236,7 +236,7 @@ const Nav = ({ isHome }) => {
                     </div>
                   </CSSTransition>
                 )}
-              </TransitionGroup>
+              </TransitionGroup> */}
             </StyledLinks>
 
             <TransitionGroup component={null}>
