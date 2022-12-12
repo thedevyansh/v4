@@ -6,4 +6,4 @@ isWorkshop: true
 showInProjects: true
 ---
 
-This workshop familiarizes the beginners to open source and how to contribute to open source development by getting them started with Hacktoberfest.
+This workshop familiarizes the beginners to open source and how to contribute to open source development by getting started with Hacktoberfest.
