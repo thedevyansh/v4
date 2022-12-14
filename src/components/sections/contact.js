@@ -61,7 +61,7 @@ const Contact = () => {
 
       <p>
         I'm currently seeking new opportunities. The best way to reach me is a &quot;hi&quot; on
-        Discord - <b>Stewie Griffin#0466</b>, LinkedIn, or an email.
+        Discord - <b>dingding#6287</b>, LinkedIn, or an email.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
