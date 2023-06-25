@@ -2,6 +2,8 @@
 date: '5'
 title: 'LexiAid'
 cover: './lexiaid.png'
+github: 'https://github.com/thedevyansh/lexiaid'
+external: 'https://github.com/thedevyansh/lexiaid'
 tech:
   - React.js
   - Flask
