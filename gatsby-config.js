@@ -134,9 +134,9 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 700,
-              linkImagesToOriginal: true,
+              linkImagesToOriginal: false,
               quality: 90,
-              tracedSVG: { color: config.colors.green },
+              tracedSVG: { color: config.colors.navy },
             },
           },
           {

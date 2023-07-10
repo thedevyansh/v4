@@ -7,9 +7,9 @@ range: 'October 2021'
 url: 'https://fellowship.mlh.io/'
 ---
 
-![MLH Logo](mlhLogo.png)
+![MLH Logo](./mlhLogo.png)
 
 <br />
 
-- Worked with a Pod of 15 members worldwide, collaborating on two projects - Pod Portfolio, a Jekyll website designed for the Fellows, and a Weather Application using React.js.
+- Worked with a Pod of 15 members worldwide, collaborating on two projects - Pod Portfolio, a Jekyll website designed for the Fellows, and a Weather Application using React.
 - Gave regular Standups and Retrospectives and volunteered for the Show & Tell session on Object Detection using OpenCV AI Kit (OAK-D).

@@ -125,16 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = [
-    'JavaScript (ES6+)',
-    'TypeScript',
-    'React.js',
-    'Node.js',
-    'Python',
-    'Rust',
-    'Kotlin',
-    'AWS',
-  ];
+  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Node', 'Python', 'Flask', 'AWS'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -144,30 +135,27 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I'm Devyansh, a senior IT undergraduate at National Institute of Technology,
-              Kurukshetra. As a developer, I love working with numerous technologies involving
-              diverse communities.
+              Hello! I'm Devyansh, a recent graduate <b>[ June, 2023 ]</b> from{' '}
+              <a href="https://nitkkr.ac.in/">NIT, Kurukshetra</a>. As a developer, I love working
+              with numerous technologies by getting involved in diverse technical communities.
             </p>
 
             <p>
               I was recently a Software Engineering Intern at{' '}
               <a href="https://www.metaplex.com/">Metaplex Studios Inc</a>. I was also a Database
-              Engineering Intern at <a href="https://www.cvent.com/">Cvent</a>, a Student Developer
-              during{' '}
+              Engineering Intern at <a href="https://www.cvent.com/">Cvent</a>, an Open Source
+              Developer during{' '}
               <a href="https://summerofcode.withgoogle.com/archive/2021/projects/6231670797107200">
                 Google Summer of Code
               </a>{' '}
-              2021 and am the Open Souce Lead of{' '}
+              and the Open Souce Lead of{' '}
               <a href="https://gdsc.community.dev/national-institute-of-technology-nit-kurukshetra/">
                 Google Developer Student Club
-              </a>
-              .
+              </a>{' '}
+              at my uni.
             </p>
 
-            <p>
-              My other interests include reading and occasional writing. You may find me reading
-              Harry Potter fandom quite frequently :P
-            </p>
+            <p>I like reading fiction and occasional creative writing.</p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
@@ -181,7 +169,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpeg"
+              src="../../images/pfp.JPG"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

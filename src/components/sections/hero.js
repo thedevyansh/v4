@@ -64,12 +64,9 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm an undergraduate at NIT, Kurukshetra, who is passionate about building stuff with an
-        emphasis on clean and maintainable code. Recently, I was a Software Engineering Intern at{' '}
-        <a href="https://www.metaplex.com/" target="_blank" rel="noreferrer">
-          Metaplex Studios
-        </a>
-        .
+        I'm a recent graduate from National Institute of Technology Kurukshetra, passionate about
+        building and contributing to impactful projects with an emphasis on clean and maintainable
+        code.
       </p>
     </>
   );
