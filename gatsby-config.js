@@ -86,13 +86,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'BrittanyChiang',
-        short_name: 'BrittanyChiang',
+        name: 'Devyansh Chawla',
+        short_name: 'Devyansh Chawla',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
-        icon: 'src/images/me.jpeg',
+        icon: 'src/images/me.JPG',
       },
     },
     `gatsby-plugin-offline`,
