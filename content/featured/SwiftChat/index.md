@@ -3,10 +3,10 @@ date: '2'
 title: 'SwiftChat'
 cover: './swiftchat.png'
 github: 'https://github.com/thedevyansh/swiftchat'
-external: 'https://swiftchat-4.herokuapp.com/'
+external: 'https://github.com/thedevyansh/swiftchat'
 tech:
-  - React.js
-  - Node.js
+  - React
+  - Node
   - TensorFlow.js
   - Numpy
   - pandas
