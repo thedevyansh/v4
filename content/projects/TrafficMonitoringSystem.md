@@ -1,11 +1,11 @@
 ---
-date: '2'
+date: '2020-11-22'
 title: 'Smart Traffic Management'
 external: 'https://github.com/Hardik-hi/Team-Novus-Productathon'
 tech:
   - Python
   - OpenCV
-  - Node.js
+  - Node
   - EJS
 showInProjects: true
 ---

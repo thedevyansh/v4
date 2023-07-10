@@ -1,5 +1,5 @@
 ---
-date: '9'
+date: '2020-07-12'
 title: 'Essence of Experiential Learning'
 external: 'https://medium.com/@schawla333333/essence-of-experiential-learning-f36718a14b87'
 isBlog: true

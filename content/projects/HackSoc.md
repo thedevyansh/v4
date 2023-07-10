@@ -1,5 +1,5 @@
 ---
-date: '4'
+date: '2022-11-08'
 title: 'OAK-D Computer Vision Workshop'
 external: 'https://hacksocnotts.co.uk/events/2022-11-08-devyansh-chawla-oak-d-computer-vision-workshop/'
 isWorkshop: true
