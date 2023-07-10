@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '4'
 title: 'Metaplex NFT Application'
 cover: './shownfts.png'
 github: 'https://github.com/metaplex-foundation/metaplex-android/tree/main/sample'

@@ -1,5 +1,5 @@
 ---
-date: '5'
+date: '6'
 title: 'LexiAid'
 cover: './lexiaid.png'
 github: 'https://github.com/thedevyansh/lexiaid'
