@@ -1,5 +1,5 @@
 ---
-date: '6'
+date: '2022-09-11'
 title: 'Project Demo at Solana Hacker House'
 external: 'https://twitter.com/hackerhouses/status/1568925705769218050?s=20&t=OGVK4C1UN5sJOGw6bTeDxw'
 isWorkshop: true
