@@ -2,8 +2,8 @@
 date: '4'
 title: 'Metaplex NFT Application'
 cover: './shownfts.png'
-github: 'https://github.com/metaplex-foundation/metaplex-android/tree/main/sample'
-external: 'https://github.com/metaplex-foundation/metaplex-android/tree/main/sample'
+github: 'https://github.com/metaplex-foundation/metaplex-android/pull/51'
+external: 'https://github.com/metaplex-foundation/metaplex-android/pull/51'
 tech:
   - Kotlin
   - Metaplex Android SDK
