@@ -1,6 +1,6 @@
 ---
 date: '2022-01-10'
-title: 'Database Engineering Intern'
+title: 'Database Engineer Intern'
 company: 'Cvent'
 location: 'Gurugram, Haryana, India'
 range: 'Jan 2022 - June 2022'

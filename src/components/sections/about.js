@@ -136,14 +136,14 @@ const About = () => {
           <div>
             <p>
               Hello! I'm Devyansh, a recent graduate <b>[ June, 2023 ]</b> from{' '}
-              <a href="https://nitkkr.ac.in/">NIT, Kurukshetra</a>. As a developer, I love working
-              with numerous technologies by getting involved in diverse technical communities.
+              <a href="https://nitkkr.ac.in/">NIT, Kurukshetra</a>.
             </p>
 
             <p>
-              I was recently a Software Engineering Intern at{' '}
+              I am a Software Engineer Intern at <a href="https://www.zamp.finance/">Zamp.</a> I was
+              recently a Software Engineer Intern at{' '}
               <a href="https://www.metaplex.com/">Metaplex Studios Inc</a>. I was also a Database
-              Engineering Intern at <a href="https://www.cvent.com/">Cvent</a>, an Open Source
+              Engineer Intern at <a href="https://www.cvent.com/">Cvent</a>, an Open Source
               Developer during{' '}
               <a href="https://summerofcode.withgoogle.com/archive/2021/projects/6231670797107200">
                 Google Summer of Code
@@ -157,7 +157,7 @@ const About = () => {
 
             <p>I like reading fiction and occasional creative writing.</p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few technologies I’ve worked with:</p>
           </div>
 
           <ul className="skills-list">

@@ -66,7 +66,8 @@ const Hero = () => {
       <p>
         I'm a recent graduate from National Institute of Technology Kurukshetra, passionate about
         building and contributing to impactful projects with an emphasis on clean and maintainable
-        code.
+        code. Currently, I am a Software Engineer Intern at{' '}
+        <a href="https://www.zamp.finance/">Zamp</a>.
       </p>
     </>
   );
