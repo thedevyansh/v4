@@ -64,10 +64,12 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm a recent graduate from National Institute of Technology Kurukshetra, passionate about
-        building and contributing to impactful projects with an emphasis on clean and maintainable
-        code. Currently, I am a Software Engineer Intern at{' '}
-        <a href="https://www.zamp.finance/">Zamp</a>.
+        I'm a Software Engineer at{' '}
+        <a href="https://www.zamp.finance/" target="_blank" rel="noreferrer">
+          Zamp
+        </a>
+        , passionate about building impactful products with strong emphasis on clean and
+        maintainable code. I'm highly interested in fintech and open source development.
       </p>
     </>
   );

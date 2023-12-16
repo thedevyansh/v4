@@ -125,7 +125,17 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Node', 'Python', 'Flask', 'AWS'];
+  const skills = [
+    'Go',
+    'JavaScript (ES6+)',
+    'TypeScript',
+    'React',
+    'Node',
+    'Python',
+    'Flask',
+    'GCP',
+    'AWS',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,16 +145,10 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I'm Devyansh, a recent graduate <b>[ June, 2023 ]</b> from{' '}
-              <a href="https://nitkkr.ac.in/">NIT, Kurukshetra</a>.
-            </p>
-
-            <p>
-              I am a Software Engineer Intern at <a href="https://www.zamp.finance/">Zamp.</a> I was
-              recently a Software Engineer Intern at{' '}
-              <a href="https://www.metaplex.com/">Metaplex Studios Inc</a>. I was also a Database
-              Engineer Intern at <a href="https://www.cvent.com/">Cvent</a>, an Open Source
-              Developer during{' '}
+              I am currently a Software Engineer at <a href="https://www.zamp.finance/">Zamp.</a>{' '}
+              Prior to Zamp, I was a Software Engineer Intern at{' '}
+              <a href="https://www.metaplex.com/">Metaplex Studios Inc</a>, a Database Engineer
+              Intern at <a href="https://www.cvent.com/">Cvent</a>, an Open Source Developer during{' '}
               <a href="https://summerofcode.withgoogle.com/archive/2021/projects/6231670797107200">
                 Google Summer of Code
               </a>{' '}
@@ -152,10 +156,14 @@ const About = () => {
               <a href="https://gdsc.community.dev/national-institute-of-technology-nit-kurukshetra/">
                 Google Developer Student Club
               </a>{' '}
-              at my uni.
+              at my uni. I've completed my bachelor's from{' '}
+              <a href="https://nitkkr.ac.in/">NIT Kurukshetra</a>.
             </p>
 
-            <p>I like reading fiction and occasional creative writing.</p>
+            <p>
+              I like reading Dark Academia and cinematography. If you want to talk books and how
+              vintage libraries & academia fascinate you, I am your guy :^)
+            </p>
 
             <p>Here are a few technologies I’ve worked with:</p>
           </div>
