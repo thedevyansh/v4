@@ -126,13 +126,13 @@ const About = () => {
   }, []);
 
   const skills = [
+    'Python',
     'Go',
     'JavaScript (ES6+)',
     'TypeScript',
+    'Temporal',
     'React',
     'Node',
-    'Python',
-    'Flask',
     'GCP',
     'AWS',
   ];
@@ -152,7 +152,7 @@ const About = () => {
               <a href="https://summerofcode.withgoogle.com/archive/2021/projects/6231670797107200">
                 Google Summer of Code
               </a>{' '}
-              and the Open Souce Lead of{' '}
+              and the Open Source Lead of{' '}
               <a href="https://gdsc.community.dev/national-institute-of-technology-nit-kurukshetra/">
                 Google Developer Student Club
               </a>{' '}
@@ -161,8 +161,9 @@ const About = () => {
             </p>
 
             <p>
-              I like reading Dark Academia and cinematography. If you want to talk books and how
-              vintage libraries & academia fascinate you, I am your guy :^)
+              I'm especially excited about AI agents, automation, and LLM applications. Outside
+              work, I like reading Dark Academia and cinematography—if you want to talk books and
+              how vintage libraries & academia fascinate you, I'm your guy :^)
             </p>
 
             <p>Here are a few technologies I’ve worked with:</p>

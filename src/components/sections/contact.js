@@ -60,8 +60,7 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I'm currently seeking new opportunities. The best way to reach me is a &quot;hi&quot; on
-        Discord - <b>dingding#6287</b>, LinkedIn, or an email.
+        I'm currently seeking new opportunities. Please reach out on LinkedIn or send me an email.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

@@ -60,7 +60,7 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Devyansh Chawla.</h2>;
-  const three = <h3 className="big-heading">I focus on driving innovative outcomes.</h3>;
+  const three = <h3 className="big-heading">I build AI-powered systems and fintech infra.</h3>;
   const four = (
     <>
       <p>
@@ -69,7 +69,8 @@ const Hero = () => {
           Zamp
         </a>
         , passionate about building impactful products with strong emphasis on clean and
-        maintainable code. I'm highly interested in fintech and open source development.
+        maintainable code, with a focus on AI agents and workflow automation. I'm highly interested
+        in fintech and open source development.
       </p>
     </>
   );

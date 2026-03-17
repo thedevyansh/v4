@@ -9,7 +9,13 @@ url: 'https://www.zamp.finance/'
 
 ![Zamp Logo](./zampLogo.png)
 
-- Working in the Banking and Treasury management team, supporting the **SMB** line of business.
+- Accounts Payable AI agent: invoice OCR → PO matching → Coupa invoice; **90% accuracy** with human-in-the-loop.
+- Platform-wide RAG with pgvector and LLM reranking for semantic retrieval.
+- **95%** fewer transaction failures via routing engine and real-time multi-partner exchange rates.
+- Template-based execution with retries and error recovery; lower TAT, faster partner onboarding.
+- Ops dashboard for banking, KYC/KYB, and monitoring; **95% of workflows** automated.
+- Counterparty platform for country-specific fiat and crypto beneficiaries; fewer RFIs.
+- Rules engine for real-time risk detection (frequency, volume, pattern, behavior).
 
 <br />
 
