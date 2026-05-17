@@ -26,5 +26,5 @@ IndexPage.propTypes = {
 
 export default IndexPage;
 
+// eslint-disable-next-line react/prop-types
 export const Head = ({ location }) => <Seo location={location} />;
-Head.propTypes = { location: PropTypes.object.isRequired };

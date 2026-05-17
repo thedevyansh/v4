@@ -219,8 +219,8 @@ ArchivePage.propTypes = {
 
 export default ArchivePage;
 
+// eslint-disable-next-line react/prop-types
 export const Head = ({ location }) => <Seo location={location} title="Archive" />;
-Head.propTypes = { location: PropTypes.object.isRequired };
 
 export const pageQuery = graphql`
   {

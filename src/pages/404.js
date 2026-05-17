@@ -70,5 +70,5 @@ NotFoundPage.propTypes = {
 
 export default NotFoundPage;
 
+// eslint-disable-next-line react/prop-types
 export const Head = ({ location }) => <Seo location={location} title="Page Not Found" />;
-Head.propTypes = { location: PropTypes.object.isRequired };
