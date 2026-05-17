@@ -32,7 +32,7 @@ module.exports = {
             query: `
         {
           allMarkdownRemark(
-            sort: {fields: frontmatter___date, order: DESC}
+            sort: { frontmatter: { date: DESC } }
             filter: {frontmatter: {external: {ne: null}}}
           ) {
             nodes {
@@ -76,7 +76,6 @@ module.exports = {
         },
       },
     },
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
@@ -136,7 +135,8 @@ module.exports = {
               maxWidth: 700,
               linkImagesToOriginal: false,
               quality: 90,
-              tracedSVG: { color: config.colors.navy },
+              disableBgImageOnAlpha: true,
+              backgroundColor: 'transparent',
             },
           },
           {
@@ -206,12 +206,6 @@ module.exports = {
             },
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-45666519-2',
       },
     },
   ],

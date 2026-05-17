@@ -39,17 +39,6 @@ const StyledSocialLinks = styled.div`
   }
 `;
 
-const StyledCredit = styled.div`
-  color: var(--light-slate);
-  font-family: var(--font-mono);
-  font-size: var(--fz-xxs);
-  line-height: 2;
-
-  a {
-    padding: 10px;
-  }
-`;
-
 function Footer() {
   return (
     <StyledFooter>
@@ -65,12 +54,6 @@ function Footer() {
             ))}
         </ul>
       </StyledSocialLinks>
-
-      <StyledCredit tabindex="-1">
-        <a href="https://github.com/bchiang7/v4">
-          <div>Designed &amp; Built by Brittany Chiang | Customized by Devyansh Chawla</div>
-        </a>
-      </StyledCredit>
     </StyledFooter>
   );
 }
