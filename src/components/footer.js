@@ -36,10 +36,6 @@ const StyledSocialLinks = styled.div`
         height: 20px;
       }
     }
-    .rss-link {
-      font-family: var(--font-mono);
-      font-size: 16px;
-    }
   }
 `;
 
@@ -67,17 +63,6 @@ function Footer() {
                 </a>
               </li>
             ))}
-
-          <li>
-            <a
-              href="/rss.xml"
-              aria-label="RSS Feed"
-              target="_blank"
-              rel="noreferrer"
-              className="rss-link">
-              [rss]
-            </a>
-          </li>
         </ul>
       </StyledSocialLinks>
 

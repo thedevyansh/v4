@@ -60,17 +60,16 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Devyansh Chawla.</h2>;
-  const three = <h3 className="big-heading">I build AI-powered systems and fintech infra.</h3>;
+  const three = <h3 className="big-heading">I build AI agents and cross-border payments infra.</h3>;
   const four = (
     <>
       <p>
         I'm a Software Engineer at{' '}
-        <a href="https://www.zamp.finance/" target="_blank" rel="noreferrer">
+        <a href="https://www.zamp.ai" target="_blank" rel="noreferrer">
           Zamp
         </a>
         , passionate about building impactful products with strong emphasis on clean and
-        maintainable code, with a focus on AI agents and workflow automation. I'm highly interested
-        in fintech and open source development.
+        maintainable code. I make AI do real work and money move fast.
       </p>
     </>
   );
