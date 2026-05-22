@@ -4,8 +4,8 @@ module.exports = {
   siteMetadata: {
     title: 'Devyansh Chawla',
     description:
-      'Devyansh Chawla is an undergraduate at NIT, Kurukshetra, who is passionate about building stuff with an emphasis on clean and maintainable code.',
-    siteUrl: 'https://devyanshchawla.me',
+      'Devyansh Chawla is a software engineer with experience building backend infrastructure and production AI systems. He has worked on cross-border B2B payments infrastructure and autonomous AI agents for enterprise clients.',
+    siteUrl: 'https://devyanshchawla.xyz',
     image: '/og.png', // No trailing slash allowed!
     twitterUsername: '@DevyanshChawla',
   },
