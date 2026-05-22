@@ -125,17 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = [
-    'Python',
-    'Go',
-    'JavaScript (ES6+)',
-    'TypeScript',
-    'Temporal',
-    'React',
-    'Node',
-    'GCP',
-    'AWS',
-  ];
+  const skills = ['Python', 'Go', 'JavaScript', 'TypeScript', 'Temporal', 'React', 'Node', 'AWS'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -162,7 +152,7 @@ const About = () => {
 
             <p>
               I'm especially excited about AI agents, automation, and LLM applications. Outside
-              work, I like reading Dark Academia and cinematography—if you want to talk books and
+              work, I like reading Dark Academia and cinematography -- if you want to talk books and
               how vintage libraries & academia fascinate you, I'm your guy :^)
             </p>
 
