@@ -12,6 +12,6 @@ tech:
   - GCP
 ---
 
-LexiAid is a learning aid that uses multimodal approaches to provide comprehensive learning outcomes for _dyslexic primary school students_ 📚.
+LexiAid is a learning aid that uses multimodal approaches to provide comprehensive learning outcomes for _dyslexic primary school students_.
 
 It consists of a novel text-to-figure model - the **TTF Module**, an immersive reader, a voice-assisted notepad, and other accessibility features.

@@ -13,4 +13,4 @@ tech:
   - Rust
 ---
 
-Discover great soundtracks on Solana and YouTube and play them with your friends. Acoustic Licious is a surprising new way to socialize with your buddies with reactions, chat, avatars, proximity, and so much more 🎧.
+Discover great soundtracks on Solana and YouTube and play them with your friends. Acoustic Licious is a surprising new way to socialize with your buddies with reactions, chat, avatars, proximity, and so much more.

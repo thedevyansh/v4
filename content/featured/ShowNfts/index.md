@@ -9,4 +9,4 @@ tech:
   - Metaplex Android SDK
 ---
 
-This Android application leverages the Android SDK of Metaplex to help developers understand its use cases. The user can connect their Phantom wallet to show NFTs owned by them along with details like creators, royalty split, symbol, etc. 📱
+This Android application leverages the Android SDK of Metaplex to help developers understand its use cases. The user can connect their Phantom wallet to show NFTs owned by them along with details like creators, royalty split, symbol, etc.
